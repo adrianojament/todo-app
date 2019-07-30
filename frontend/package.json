@@ -40,6 +40,12 @@
   },
   "dependencies": {
     "@fortawesome/fontawesome-free-webfonts": "^1.0.9",
+    "@fortawesome/fontawesome-svg-core": "^1.2.20",
+    "@fortawesome/free-regular-svg-icons": "^5.10.0",
+    "@fortawesome/free-solid-svg-icons": "^5.10.0",
+    "@fortawesome/react-fontawesome": "^0.1.4",
+    "react-native-vector-icons": "^6.6.0",
+    "react-router-dom": "^5.0.1",
     "webpack-cli": "^3.3.6"
   }
 }

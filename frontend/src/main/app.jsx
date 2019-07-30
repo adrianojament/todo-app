@@ -1,14 +1,14 @@
 import 'modules/bootstrap/dist/css/bootstrap.min.css'
-//import 'font-awesome/css/font-awesome.css';
+import '@fortawesome/fontawesome-free/css/fontawesome.min.css'
+import '@fortawesome/fontawesome-free/css/svg-with-js.min.css'
 import React from 'react'
-const path = require('path');
-
-//const caminho = 
-const mod = '$modules/font-awesome'
+import Menu from '../template/menu'
+import Router from './router'
 
 export default props => (
     <div className='container'>
-        <h1>teste</h1>        
-        <h1>{mod}</h1>
+        <Menu/>
+        <Router/>
+        <PageHeader name='Tarefas' small='Cadastro'></PageHeader>
     </div>
 )
