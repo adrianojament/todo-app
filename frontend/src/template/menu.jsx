@@ -1,5 +1,4 @@
 import React from 'react'
-import '@fortawesome/fontawesome-free/css/svg-with-js.min.css'
 
 export default props => (
     <nav className='navbar navbar-expand-md navbar-dark bg-dark fixed-top'>
